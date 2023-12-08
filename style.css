@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque !important;
+}
+
+.allSection{
+    padding: 0 13em;
+    display: flex;
+}
+
+.firstDiv{
+    background-color: purple;
+    height: 13em;
+    width: 100%;
+    margin-top: -0.5em;
+    border-radius: 10px;
+}
+
+.welMsg{
+    font-family: 'Noto Serif', serif;
+    font-weight: 599 !important;
+    color: purple;
+}
+
+.balance h4{
+    color: rgb(255, 211, 255);
+    padding: 27px 0 0 23px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 1.09em;
+}
+
+.balance p{
+    color: white;
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: -0.3em;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.limitSection{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    padding-left: 0.6em;
+    margin-top: 1.5em;
+}
+
+.dailyLimitText {
+    color: orangered;
+    padding: 15px 0 0 15px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 1.09em;
+}
+
+.dailyLimit :nth-child(2) {
+    color: orange;
+    padding-left: 17px;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: -0.3em;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.totalSpentText {
+    color: orangered;
+    padding: 20px 0 0 15px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 1.09em;
+}
+
+.totalSpent :nth-child(2) {
+    color: orange;
+    padding-left: 17px;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-top: -0.3em;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.secondDiv{
+    padding-top: 3.9em;
+    padding-left: 1.6em;
+}
+
+#formHeader p{
+    text-decoration: 2px underline;
+}
+
+.budgetSection h3{
+    font-size: 1.5em;
+    font-family: 'Didact Gothic', sans-serif;
+    color: purple;
+    font-weight: 500;
+}
+
+.budgetSection div{
+    justify-content: space-between;
+    margin-bottom: 0.4em;
+}
+
+.budgetSection p{
+    color: red;
+    font-weight: 500;
+    margin-top: 0.2em;
+}
+
+.budgetSection button{
+    background: none;
+    border: 2px orangered solid;
+    border-radius: 4px;
+    width: 30%;
+    height: 2em;
+    color: red;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-left: 35%;
+}
+
+.budgetSection button:hover{
+    background-color: red;
+    color: white;
+}
+
+.budgetSection input{
+    background-color: bisque;
+    border-radius: 4px;
+    padding: 7px;
+    border: 2px orangered solid !important;
+    color: red !important;
+    font-family: 'Didact Gothic', sans-serif;
+    height: 2.4em;
+    width: 45%;
+}
+
+.budgetSection input:focus{
+    box-shadow: none !important;
+    border-top: 2px orange solid !important;
+    border-left: 2px orange solid !important;
+    border-right: 2px orange solid !important;
+    outline: 2px orange solid !important;
+}
+
+.budgetSection input::placeholder{
+    color: orangered !important;
+    font-family: 'Didact Gothic', sans-serif !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#errMsg{
+    background-color: red;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    margin-left: 25%;
+    display: none;
+}
+
+#errMsg2{
+    background-color: red;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    margin-left: 25%;
+    display: none;
+}
+
+.showBudgetDetail{
+    margin-top: 2em;
+    padding: 0 3em 0 0.5em;
+    display: none;
+}
+
+.showBudgetDetail div{
+    justify-content: space-between;
+}
+
+.showBudgetDetail h3{
+    color: purple;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    padding-bottom: 1em;
+    letter-spacing: 2px;
+}
+
+.showBudgetDetail p{
+    color: red;
+    font-weight: 500;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    .allSection{
+        padding: 5px;
+        flex-direction: column;
+    }
+    .secondDiv{
+        padding: 2px;
+    }
+    .budgetSection h3{
+        margin-top: 2em;
+        margin-left: 0.5em;
+        font-size: 1.3em;
+    }
+    .budgetSection input{
+        width: 45%;
+    }
+}
