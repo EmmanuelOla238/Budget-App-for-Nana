@@ -191,7 +191,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .showBudgetDetail h3{
-    color: purple;
+    color: red;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: 600;
     font-size: 1em;
@@ -200,8 +200,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .showBudgetDetail p{
-    color: red;
-    font-weight: 500;
+    color: blue;
+    font-weight: 600;
     font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -216,7 +216,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .showBudgetDetailSm h3{
-    color: purple;
+    color: red;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: 600;
     font-size: 1em;
@@ -225,8 +225,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .showBudgetDetailSm p{
-    color: red;
-    font-weight: 500;
+    color: blue;
+    font-weight: 600;
     font-family: 'Didact Gothic', sans-serif;
 }
 

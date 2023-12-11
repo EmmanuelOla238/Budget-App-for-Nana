@@ -5,10 +5,12 @@ function addBudget() {
         errMsg.style.display = "block"
         errMsg2.style.display = "none"
         showBudgetDetail.style.display = "none"
+        showBudgetDetailSm.style.display = "none"
     }else if(confirmation == true && personal.value == "" || food.value == "" || trans.value == "" || clothing.value == "" || other.value == "") {
         errMsg2.style.display = "block"
         errMsg.style.display = "none"
         showBudgetDetail.style.display = "none"
+        showBudgetDetailSm.style.display = "none"
     } else if(confirmation == true) {
         var totalBalance = 1100000 - totalBudget
         var remainder = 10000 - totalBudget
